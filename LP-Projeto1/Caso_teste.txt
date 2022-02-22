@@ -1,0 +1,41 @@
+Compilar: 
+gcc -Wall -c listp1.c
+ar -rc liblistp1.a listp1.o
+ar -t liblistp1.a
+gcc -Wall -o main main.c -L. -llistp1
+Executar: ./main
+
+Caso teste Input:
+1
+7
+lavar
+1
+9
+comer
+6
+2
+Tiago
+2
+2
+Joao
+2
+6
+4
+1
+4
+2
+6
+1
+3
+correr
+2
+Carolina
+2
+1
+9
+cozinhar
+9
+
+
+
+
